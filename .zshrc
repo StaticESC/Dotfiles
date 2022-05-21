@@ -33,7 +33,7 @@ alias exa='exa --classify'
 alias 291='cd ~/Desktop/Sem\ 2/CMPUT-291/'
 alias 325='cd ~/Desktop/Sem\ 2/CMPUT-325/'
 alias 366='cd ~/Desktop/Sem\ 2/CMPUT-366/'
-alias 215='cd ~/Desktop/Sem\ 2/MATH-291/'
+alias 215='cd ~/Desktop/Sem\ 2/MATH-215/'
 alias 101='cd ~/Desktop/Sem\ 2/ECON-101/'
 alias vim='nvim'
 alias lsa='ls -a'
@@ -44,6 +44,7 @@ alias df='df -h'                                                # Human-readable
 alias free='free -m'                                            # Show sizes in MB
 alias gitu='git add . && git commit && git push'
 alias dudir='du -h -d1'
+alias books='cd ~/Stuff/Books'
 # Load version control information
 autoload -Uz vcs_info
 precmd() { vcs_info }
@@ -91,8 +92,8 @@ alias neofetch='clear && neofetch'
 # alias mars='d java -jar /opt/Mars4_5.jar'
 # alias pycharm='d /opt/pycharm-2021.1.2/bin/pycharm.sh'
 alias 20min='python3 ~/.local/MyScripts/20min.py'
-
-
+alias uni='~/Stuff/\[UNI\]'
+alias myrepos='~/Stuff/My-Repos'
 # custom konsole titles using 'title' function
 # title(){echo$'\033]30;'$*$'\007'}
 
